@@ -13,7 +13,6 @@ To get this working on a shop:
 
 &lt;script&gt;
 $(function($){
-//Turn inputs into clickable boxes
 $('.selector-wrapper select').clickyBoxes();
 });
 &lt;/script&gt;
