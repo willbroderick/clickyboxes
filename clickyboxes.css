@@ -2,9 +2,11 @@
   margin: 0.4em 0 1em;
   padding: 0;
 }
+
 .clickyboxes li {
   display: inline;
 }
+
 .clickyboxes li a {
   display: inline-block;
   margin: 0 10px 5px 0;
@@ -16,8 +18,15 @@
   background: #ccc;
   transition: all 200ms;
 }
+
 .clickyboxes li a.active {
   border-color: #666;
   background: #fff;
   color: #333;
 }
+
+/* To colour options individually, you can add styles like these:
+
+.clickyboxes a[data-value="Light Blue"] { background: #ddddFF; }
+.clickyboxes a[data-value="Green"] { background: #44ff44; }
+*/
