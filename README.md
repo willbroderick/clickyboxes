@@ -11,9 +11,9 @@ To get this working on a shop:
 2. Do the same with the CSS file. Adding it to the bottom of styles.css.liquid will be simplest.
 3. Add the script below to product.liquid, right at the bottom.
 
-<script>
+&lt;script&gt;
 $(function($){
-	//Turn inputs into clickable boxes
-	$('.selector-wrapper select').clickyBoxes();
+//Turn inputs into clickable boxes
+$('.selector-wrapper select').clickyBoxes();
 });
-</script>
+&lt;/script&gt;
