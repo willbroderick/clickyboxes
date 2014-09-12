@@ -3,9 +3,9 @@ Clickyboxes
 
 Turn ordinary dropdowns into chunky boxes in a Shopify theme
 
+[Example](http://beard-theme.myshopify.com/collections/beard-care/products/beard-trimmer)
 
-
-To get this working on a shop.
+To get this working on a shop:
 
 1. Upload jquery.clickboxes.js and add a script tag linking to it, or add the contents into the main JS file.
 2. Do the same with the CSS file. Adding it to the bottom of styles.css.liquid will be simplest.
