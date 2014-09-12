@@ -1,0 +1,23 @@
+.clickyboxes {
+  margin: 0.4em 0 1em;
+  padding: 0;
+}
+.clickyboxes li {
+  display: inline;
+}
+.clickyboxes li a {
+  display: inline-block;
+  margin: 0 10px 5px 0;
+  padding: 4px 10px;
+  border-radius: 3px;
+  
+  border: 1px solid #aaa;
+  color: #666;
+  background: #ccc;
+  transition: all 200ms;
+}
+.clickyboxes li a.active {
+  border-color: #666;
+  background: #fff;
+  color: #333;
+}

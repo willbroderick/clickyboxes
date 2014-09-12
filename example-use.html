@@ -1,0 +1,15 @@
+To get this working on a shop.
+
+1. Upload jquery.clickboxes.js and add a script tag linking to it, or add the contents into the main JS file.
+2. Do the same with the CSS file, add it to the bottom of styles.css.liquid if that's simplest.
+3. Add the script below to product.liquid, at the bottom.
+
+That should do it...
+
+
+<script>
+$(function($){
+	//Turn some inputs into clickable boxes
+	$('.product-form .selector-wrapper select').clickyBoxes().parent().addClass('has-clickyboxes');
+});
+</script>
