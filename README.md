@@ -19,6 +19,10 @@ $('.selector-wrapper select').clickyBoxes();
 
 ---
 
-FYI, for our *Symmetry* theme you'll have to skip (3) and put this code *$('.selector-wrapper select').clickyBoxes();* in main.js.liquid, just after Shopify.OptionSelectors (which is around line 606). So on the line underneath:
+FYI, for our *Symmetry* theme you'll have to skip (3) and add this line of code:
+
+    $('.selector-wrapper select').clickyBoxes();
+    
+To main.js.liquid, just after Shopify.OptionSelectors (which is around line 606). So on the line underneath:
 
     new Shopify.OptionSelectors($(this).attr('id'), ...
